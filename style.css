@@ -1,0 +1,75 @@
+/*Background*/
+
+body{
+    background-image: url("background.jpg");
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    height: 100vh;
+  }
+.container{
+      margin: auto;
+      margin-top: 40px;
+      width: 1000px;
+      height: 640px;
+      background-color: rgba(0, 0, 0, 0.527);
+      border-radius: 25px;
+      padding: 100px;
+  }
+
+/*Logo & text*/
+
+header{
+    text-align: center;
+}
+#logo{
+    width: 230px;
+}
+.logo-text{
+    font-size: 28px;
+    color: limegreen;
+}
+
+/*Buttons*/
+
+.button-box{
+    height: 40px;
+    background-color: limegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Desc & Charge bar*/
+
+.item-name{
+    font-size: 22px;
+    color: white;
+}
+.location{
+    font-size: 14px;
+    color: white;
+
+}
+.charge-status{
+    font-size: 14px;
+    color: white;
+
+}
+.orange-bar{
+    height: 28px;
+    width: 320px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.green-bar{
+    height: 28px;
+    width: 620px;
+    background-color: rgb(73, 231, 73);
+    border-radius: 5px;
+}
+.red-bar{
+    height: 28px;
+    width: 140px;
+    background-color: rgb(202, 44, 44);
+    border-radius: 5px;
+}
